@@ -6,4 +6,16 @@
   <groupId>1</groupId>
   <artifactId>1</artifactId>
   <url>https://www.github.com/iCd93</url>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.jacoco</groupId>
+  		<artifactId>jacoco-maven-plugin</artifactId>
+  		<version>0.7.4.201502262128</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>junit</groupId>
+  		<artifactId>junit</artifactId>
+  		<version>4.12</version>
+  	</dependency>
+  </dependencies>
 </project>

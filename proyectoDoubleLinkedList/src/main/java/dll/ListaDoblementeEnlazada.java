@@ -16,6 +16,13 @@ public class ListaDoblementeEnlazada {
         ultimoNodo = ultimo;
     }
 
+    public NodoDoblementeEnlazado getPrimero(){
+        return primerNodo;
+    }
+    
+    public NodoDoblementeEnlazado getUltimo(){
+        return ultimoNodo;
+    }
     public void insertarAdelante(ListaDoblementeEnlazada lista,
             NodoDoblementeEnlazado nodo, NodoDoblementeEnlazado nuevonodo) {
         nuevonodo.setAnterior(nodo);
@@ -78,6 +85,7 @@ public class ListaDoblementeEnlazada {
         }
 
     }
+
 
 }
 
